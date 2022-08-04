@@ -1,0 +1,4 @@
+config/default.production.json
+node_modules
+*.log
+package-lock.json

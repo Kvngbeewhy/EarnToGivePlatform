@@ -1,0 +1,13 @@
+{
+  "environment": "dev",
+  "app_name": "climedotest",
+  "db_conn": "mongodb://localhost:27017/climeDb",
+  "db_conn_Prod": "mongodb+srv://Kvngbeewhy:beewhy97@cluster0.dnki1.mongodb.net/earntogive",
+  "port": "5000",
+  "jwtPrivateKey": "isiLRTBlmSt0Y9qjtU6NTuHIP7xU2XoivazUXrfePFGwbhb7mtrNkqLBS3YRrWam",
+  "jwtRefreshTokenPrivateKey": "RIaPfryYBa6tNU9rzEFoxgipFZaJOfCkgdD8elUTu5SsQKDb0HapSIzabQNm8axa",
+  "requiresAuth": true,
+  "bcryptSalt": "$2b$10$oPd2gJERglqNiWXf3sYwIu",
+  "APP_URL": "http://localhost:9700",
+  "app_domain": "http://localhost:9700/"
+}
