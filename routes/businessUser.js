@@ -39,7 +39,7 @@ router.get("/", async (req, res)  => {
 
 
 // Create a new User
-router.post("/", async (req, res) => {
+router.post("/open", async (req, res) => {
     const { error } = validateBussinessUserPost(req.body);
     if (error) return response.validationErrors(res, error.details[0].message);
   
